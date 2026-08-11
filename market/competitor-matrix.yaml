@@ -1,0 +1,66 @@
+# Otopic competitor matrix — structured source of truth.
+# Prose deep-dives for the key ones live in ./competitors/<slug>.md
+# Strategic analysis lives in ./observations.md
+# Categories: all-in-one-workspace | work-management | dev-tracker | self-hosted
+# Unknown/uncertain fields are left null rather than guessed.
+
+meta:
+  legend: "Axes scored relative to Otopic's positioning: ai_native, simple_mobile_first, sovereignty_byoc, client_collab"
+  updated: 2026-08-11
+
+competitors:
+  - name: Notion
+    slug: notion
+    url: https://www.notion.com/
+    category: all-in-one-workspace
+    ai_native: partial
+    simple_mobile_first: partial
+    sovereignty_byoc: no
+    client_collab: no
+    strengths: [flexible blocks/databases, huge template ecosystem, AI assistant]
+    weaknesses: [rich-text blobs opaque to AI, multi-tenant only, setup-heavy for teams]
+
+  - name: Asana
+    slug: asana
+    url: https://asana.com/
+    category: work-management
+    ai_native: no
+    simple_mobile_first: no
+    sovereignty_byoc: no
+    client_collab: partial
+    strengths: [mature work management, integrations]
+    weaknesses: [AI bolted on, complex for small teams, no BYOC]
+
+  - name: ClickUp
+    slug: clickup
+    url: https://clickup.com/
+    category: work-management
+    ai_native: no
+    simple_mobile_first: no
+    sovereignty_byoc: no
+    client_collab: partial
+    strengths: [feature breadth, aggressive pricing]
+    weaknesses: [notorious complexity, visual state opaque to AI, no BYOC]
+
+  - name: Jira
+    slug: jira
+    url: https://www.atlassian.com/software/jira
+    category: dev-tracker
+    ai_native: no
+    simple_mobile_first: no
+    sovereignty_byoc: no
+    client_collab: no
+    strengths: [enterprise entrenchment, dev-workflow depth]
+    weaknesses: [hostile to non-technical clients, heavyweight, Data Center self-hosting is legacy-clunky]
+
+  - name: Self-hosted alternatives
+    slug: self-hosted
+    url: null
+    category: self-hosted
+    ai_native: no
+    simple_mobile_first: no
+    sovereignty_byoc: yes
+    client_collab: no
+    note: "e.g. OpenProject, Focalboard, Taiga — sovereignty exists but is clunky: no AI, dated UX, ops burden on the customer."
+    strengths: [data stays in-house]
+    weaknesses: [no AI, poor mobile UX, DIY operations]

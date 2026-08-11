@@ -1,0 +1,39 @@
+# Pricing assumptions — the numbers behind the model.
+# Update as reality replaces guesses. status: assumption | validated | rejected
+
+assumptions:
+  - id: ai-quota-upgrade-trigger
+    statement: "Hitting the Free tier's 30–50 AI actions/month quota is the natural Free → Pro conversion moment."
+    status: assumption
+    confidence: medium
+    source: strategy/business-model.md
+
+  - id: free-includes-ai
+    statement: "Free tier must include (rate-limited) AI so every user experiences the differentiator on day one; a no-AI free tier would dilute AI-native positioning."
+    status: assumption
+    confidence: high
+    source: strategy/risks.md
+
+  - id: pro-price-band
+    statement: "€10–15 / user / month is the right Pro band for active freelancers and growing teams."
+    status: assumption
+    confidence: low
+    note: "Exact point unset; validate against willingness-to-pay in Phase 2."
+
+  - id: two-motions
+    statement: "Hosted subscription and PAYG must remain separate motions; forcing one model onto both segments fails."
+    status: assumption
+    confidence: high
+    source: decisions/0002-three-tier-two-motion-pricing.md
+
+  - id: sovereign-payg-composition
+    statement: "Sovereign is priced as AWS + AI + subscription (+ labor), aligned with Sapilon's PAYG model."
+    status: assumption
+    confidence: medium
+    source: strategy/sapilon-synergy.md
+
+  - id: client-seats-free
+    statement: "External client-side stakeholders are never billed — they are the viral surface, not a revenue line."
+    status: assumption
+    confidence: medium
+    source: product/use-cases/client-collaboration.md
