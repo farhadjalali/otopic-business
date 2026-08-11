@@ -5,7 +5,7 @@
 
 ## Context
 
-Otopic serves two segments with incompatible buying behavior: freelancers/small teams (self-serve, price-sensitive, viral) and regulated/enterprise (procurement-driven, compliance-blocked, BYOC). A single pricing model would mismatch one of them — a named risk in [`../strategy/risks.md`](../strategy/risks.md).
+Otopic serves two segments with incompatible buying behavior: SME teams (self-serve/seeded, per-seat subscription) and regulated/enterprise (procurement-driven, compliance-blocked, BYOC). (Segment definition updated same-day by [`./0003-sme-teams-first-target.md`](./0003-sme-teams-first-target.md).) A single pricing model would mismatch one of them — a named risk in [`../strategy/risks.md`](../strategy/risks.md).
 
 ## Decision
 

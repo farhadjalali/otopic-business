@@ -10,7 +10,7 @@
 
 **Why now:** <market timing — see market/observations.md>
 
-**Wedge:** Freelancers & small teams closing the client-collaboration gap; one freelancer brings Otopic to 3–5 engagements.
+**Wedge:** Client-facing SME teams (~5–50) closing the client-collaboration gap; every project exposes client-side stakeholders who bring Otopic into their own orgs.
 
 **Differentiators:** simple + AI-native + sovereign (the combination is the moat) · text-first data model · built-in client collaboration.
 

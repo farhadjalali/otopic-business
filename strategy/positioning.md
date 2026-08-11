@@ -36,5 +36,6 @@ Structured source: [`../market/competitor-matrix.yaml`](../market/competitor-mat
 
 - **Work is fragmented** across calendars, chats, docs, and task boards — context evaporates between them.
 - **AI is bolted on**, not embedded. Most tools added a chatbot; none made AI the way work gets organized.
+- **SME teams can't staff the overhead.** A 5–50 person team has real coordination and client-communication load but no capacity for a dedicated PM writing status updates.
 - **Sovereignty is incompatible with modern tools.** Legal, healthcare, finance, and enterprise can't use Notion/Asana/ClickUp because the data sits in someone else's cloud.
 - **Modern tools are opaque to AI.** Nested boards and rich-text blobs are optimized for human scanning, not machine parsing.

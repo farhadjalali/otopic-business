@@ -15,7 +15,7 @@ assumptions:
     source: strategy/risks.md
 
   - id: pro-price-band
-    statement: "€10–15 / user / month is the right Pro band for active freelancers and growing teams."
+    statement: "€10–15 / user / month is the right Pro band for SME teams (~5–50 people)."
     status: assumption
     confidence: low
     note: "Exact point unset; validate against willingness-to-pay in Phase 2."

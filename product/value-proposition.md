@@ -1,6 +1,6 @@
 # Value Proposition
 
-**Otopic is an AI-native project brain that lives in your cloud** — the workspace for teams and freelancers who need to plan, collaborate with clients, and let AI handle the management overhead, without sending their data to multi-tenant SaaS.
+**Otopic is an AI-native project brain that lives in your cloud** — the workspace for SME teams that need to plan, collaborate with clients, and let AI handle the management overhead, without sending their data to multi-tenant SaaS.
 
 ## The core unit: the Topic
 
@@ -14,7 +14,7 @@ A **Topic** is a durable container that holds notes, chat, tasks, decisions, and
 
 Existing tools force a trade-off. Otopic delivers all three:
 
-1. **Simple** — mobile-first, three-tap actions, no setup overhead. Built for freelancers as much as enterprise teams.
+1. **Simple** — mobile-first, three-tap actions, no setup overhead. An SME team is productive on day one, without an admin or a rollout project.
 2. **AI-native** — AI is how work gets organized, not a chatbot on the side. Every note, decision, and task is a first-class input to the AI.
 3. **Sovereign** — deployable into the client's own AWS organization. Data never leaves their boundary; compliance becomes architectural, not contractual.
 
@@ -29,5 +29,5 @@ The UI can be rich; the storage layer stays minimal. Full rationale: [`../decisi
 
 ## Use-cases
 
-- [`use-cases/client-collaboration.md`](./use-cases/client-collaboration.md) — the freelancer wedge
+- [`use-cases/client-collaboration.md`](./use-cases/client-collaboration.md) — the SME wedge
 - [`use-cases/remote-work.md`](./use-cases/remote-work.md) — the distributed-team operating model

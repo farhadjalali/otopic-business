@@ -26,5 +26,6 @@ The architecture and brand are deliberately kept spin-out-ready so both options 
 
 | Segment | Motion | Entry point |
 | --- | --- | --- |
-| Freelancers & small teams | Self-serve, viral (freelancer brings Otopic to 3–5 client engagements) | Free tier → AI-quota upgrade trigger |
+| SME teams (~5–50, client-facing services first) | Seeded via Sapilon engagements + client-side exposure (clients on a project bring Otopic into their own orgs) | Free team trial → AI-quota upgrade to Pro |
 | Regulated / enterprise | Top-down via Sapilon engagements | Sovereign tier, packaged with services |
+| Freelancers (later, Phase 2+) | Pure self-serve, no marketing spend | Free tier |

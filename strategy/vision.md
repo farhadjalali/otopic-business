@@ -20,7 +20,7 @@ Non-negotiable principles:
 2. **AI is the way work gets organized, not a chatbot on the side.**
 3. **Sovereignty is architectural, not contractual.** Data never leaves the customer's boundary.
 4. **Text-first storage.** Structured, human-readable text is the source of truth; visual presentation is a read layer. (See [`../decisions/0001-text-first-data-model.md`](../decisions/0001-text-first-data-model.md).)
-5. **Simple by default.** Mobile-first, three-tap actions, no setup overhead — for freelancers as much as enterprise.
+5. **Simple by default.** Mobile-first, three-tap actions, no setup overhead — an SME team is productive on day one without an admin or a rollout project.
 
 ## Long-term vision
 

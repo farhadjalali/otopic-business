@@ -1,11 +1,11 @@
 # Pricing — Current Model
 
-**Model: three tiers, two motions.** Hosted subscription (Free/Pro) for the freelancer wedge; pay-as-you-go (Sovereign) for regulated/enterprise. Rationale in [`../decisions/0002-three-tier-two-motion-pricing.md`](../decisions/0002-three-tier-two-motion-pricing.md); assumptions in [`./assumptions.yaml`](./assumptions.yaml).
+**Model: three tiers, two motions.** Hosted subscription (Free/Pro) for the SME wedge; pay-as-you-go (Sovereign) for regulated/enterprise. Rationale in [`../decisions/0002-three-tier-two-motion-pricing.md`](../decisions/0002-three-tier-two-motion-pricing.md); assumptions in [`./assumptions.yaml`](./assumptions.yaml).
 
 | Tier | Price | For | Includes |
 | --- | --- | --- | --- |
-| **Free** | €0 | Individuals, freelancers, small teams | Full collaboration, all core features, **30–50 AI actions/month** |
-| **Pro** | €10–15 / user / month | Active freelancers, growing teams | Unlimited AI, multiple workspaces, client-branded views, priority support |
+| **Free** | €0 | Team trials, client-side stakeholders, individuals | Full collaboration, all core features, **30–50 AI actions/month** |
+| **Pro** | €10–15 / user / month | SME teams (~5–50 people) | Unlimited AI, multiple workspaces, client-branded views, priority support |
 | **Sovereign** | Pay-as-you-go: AWS + AI + subscription (+ labor when needed) | Regulated industries, enterprise | BYOC deployment in client's AWS org, SLA, dedicated onboarding |
 
 ## How each motion converts
