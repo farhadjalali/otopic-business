@@ -20,6 +20,18 @@ competitors:
     strengths: [flexible blocks/databases, huge template ecosystem, AI assistant]
     weaknesses: [rich-text blobs opaque to AI, multi-tenant only, setup-heavy for teams]
 
+
+  - name: Evernote
+    slug: evernote
+    url: https://evernote.com/
+    category: all-in-one-workspace
+    ai_native: no
+    simple_mobile_first: yes
+    sovereignty_byoc: no
+    client_collab: no
+    strengths: [mobile-first, simple note-taking, long history]
+    weaknesses: [not AI-native, multi-tenant only, limited collaboration]
+
   - name: Asana
     slug: asana
     url: https://asana.com/
