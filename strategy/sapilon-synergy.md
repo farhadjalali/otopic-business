@@ -10,7 +10,7 @@ Otopic and Sapilon (AI software services) are **one offer with two revenue strea
 
 ## Pricing alignment
 
-The Sovereign tier aligns with Sapilon's pay-as-you-go model: **AI credits + AWS pass-through + subscription + labor when needed.** See [`../pricing/current-model.md`](../pricing/current-model.md).
+The Enterprise tier aligns with Sapilon's pay-as-you-go model: **AI credits + AWS pass-through + subscription + labor when needed.** See [`../pricing/current-model.md`](../pricing/current-model.md).
 
 ## Tension to manage
 

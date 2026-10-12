@@ -11,7 +11,7 @@ Otopic is used inside every Sapilon engagement. **No public marketing.**
 
 ## Phase 2 (months 9–24, ~2027 → mid-2028): Standalone product
 
-Public launch with **Free + Pro** tiers.
+Public launch with **Free + Standard + Teams** tiers.
 
 - **Sovereign** tier sold through Sapilon as a packaged offering.
 - Content marketing on AI + project execution drives both demand funnels (Otopic and Sapilon).
@@ -26,6 +26,6 @@ The architecture and brand are deliberately kept spin-out-ready so both options 
 
 | Segment | Motion | Entry point |
 | --- | --- | --- |
-| SME teams (~5–50, client-facing services first) | Seeded via Sapilon engagements + client-side exposure (clients on a project bring Otopic into their own orgs) | Free team trial → AI-quota upgrade to Pro |
-| Regulated / enterprise | Top-down via Sapilon engagements | Sovereign tier, packaged with services |
+| SME teams (~5–50, client-facing services first) | Seeded via Sapilon engagements + client-side exposure (clients on a project bring Otopic into their own orgs) | Free team trial → trial-credit upgrade to Teams |
+| Regulated / enterprise | Top-down via Sapilon engagements | Enterprise tier, packaged with services |
 | Freelancers (later, Phase 2+) | Pure self-serve, no marketing spend | Free tier |

@@ -16,4 +16,4 @@
 
 **Market:** <size / trend>
 
-**Business model:** Free / Pro (€10–15 user/mo) / Sovereign PAYG (see strategy/business-model.md).
+**Business model:** Free (no AI, €1–3 trial credit) / Standard (€10–15/mo, one person) / Teams (€10–15 user/mo) / Enterprise PAYG (see strategy/business-model.md).

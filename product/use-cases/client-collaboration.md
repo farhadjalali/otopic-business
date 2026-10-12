@@ -14,7 +14,7 @@ A shared workspace where every engagement (Topic) has:
 - a **chat** — conversation attached to the work, not lost in a messenger,
 - an **AI** — that drafts updates, surfaces stalls, and keeps clients informed automatically.
 
-Client-facing views let external stakeholders **self-serve** instead of pinging: "where are we on this?" is answered by the Topic, not by a person. Client-branded views (Pro) make the workspace feel like the firm's own.
+Client-facing views let external stakeholders **self-serve** instead of pinging: "where are we on this?" is answered by the Topic, not by a person. Client-branded views (Teams) make the workspace feel like the firm's own.
 
 ## Why it spreads
 

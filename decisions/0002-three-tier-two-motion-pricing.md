@@ -1,7 +1,7 @@
 # 0002 — Three-tier pricing serving two distinct motions
 
 - **Date:** 2026-08-11
-- **Status:** accepted
+- **Status:** accepted — tier list superseded by [0006](./0006-four-tier-pricing-free-without-ai.md); the two-motion split stands
 
 ## Context
 

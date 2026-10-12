@@ -20,7 +20,7 @@ Same agent, same abilities, same permissions in both.
 
 | Job        | Examples                                                                                                                                      | Role in the business                                                      |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| **Find**   | "the topic about the Acme logo" · "where did we talk about the invoice?"                                                                      | Table stakes — every tool searches. Free; never counts against the quota. |
+| **Find**   | "the topic about the Acme logo" · "where did we talk about the invoice?"                                                                      | Table stakes — every tool searches. Free; never draws on AI credit.   |
 | **Do**     | "new topic: Q4 offsite" · "add to Acme: client approved the colours" · "remind me about this Friday at 10" · "share it with the design group" | The zero-tap input method that makes _simple by default_ real.            |
 | **Answer** | "where are we on the website?" · "what did we decide about hosting?" · "what's due for Acme this week?" · "draft this week's update for Acme" | The paid hero — the vision's "no one writes a status report again".       |
 
@@ -49,7 +49,7 @@ Everything the asker can see, and nothing else: topic notes and their change his
 
 ## Open
 
-- Whose AI quota a client-side stakeholder's question draws on — lean in [`../pricing/current-model.md`](../pricing/current-model.md).
+- Whose AI pool a client-side stakeholder's question draws on — lean in [`../pricing/current-model.md`](../pricing/current-model.md).
 - File contents in answers (not just names) — when.
 - Talk-mode languages: teams and their clients don't all speak English.
 - Proactive AI (status drafts, stall alerts): delivered _by_ the agent as a message, or in the topic?

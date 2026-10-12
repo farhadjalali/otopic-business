@@ -4,21 +4,37 @@
 assumptions:
   - id: ai-quota-upgrade-trigger
     statement: "Hitting the Free tier's 30–50 AI actions/month quota is the natural Free → Pro conversion moment."
-    status: assumption
+    status: rejected
     confidence: medium
     source: strategy/business-model.md
+    note: "Replaced by trial-credit-upgrade-trigger (decisions/0006, 2026-10-12): Free has no monthly quota."
+
+  - id: trial-credit-upgrade-trigger
+    statement: "Using up the Free tier's one-time €1–3 trial AI credit is the natural Free → Standard / Teams conversion moment."
+    status: assumption
+    confidence: medium
+    source: decisions/0006-four-tier-pricing-free-without-ai.md
+    note: "Measure in Phase 1: share of Free users who spend the credit, and conversion after it runs out."
 
   - id: free-includes-ai
     statement: "Free tier must include (rate-limited) AI so every user experiences the differentiator on day one; a no-AI free tier would dilute AI-native positioning."
-    status: assumption
+    status: rejected
     confidence: high
     source: strategy/risks.md
+    note: "Superseded by decisions/0006 (2026-10-12): Free has no recurring AI; a one-time trial credit carries the first impression."
 
   - id: pro-price-band
-    statement: "€10–15 / user / month is the right Pro band for SME teams (~5–50 people)."
+    statement: "€10–15 / user / month is the right Teams (formerly Pro) band for SME teams (~5–50 people)."
     status: assumption
     confidence: low
     note: "Exact point unset; validate against willingness-to-pay in Phase 2."
+
+  - id: standard-price-band
+    statement: "€10–15 / month is the right Standard band for one person with AI."
+    status: assumption
+    confidence: low
+    source: decisions/0006-four-tier-pricing-free-without-ai.md
+    note: "Placeholder carried from the Pro band; open whether a Teams seat should cost more than Standard."
 
   - id: two-motions
     statement: "Hosted subscription and PAYG must remain separate motions; forcing one model onto both segments fails."
@@ -27,7 +43,7 @@ assumptions:
     source: decisions/0002-three-tier-two-motion-pricing.md
 
   - id: sovereign-payg-composition
-    statement: "Sovereign is priced as AWS + AI + subscription (+ labor), aligned with Sapilon's PAYG model."
+    statement: "Enterprise (formerly Sovereign) is priced as AWS + AI + subscription (+ labor), aligned with Sapilon's PAYG model."
     status: assumption
     confidence: medium
     source: strategy/sapilon-synergy.md
@@ -46,13 +62,13 @@ assumptions:
     note: "Validate in Phase 1: share of agent requests that are answers vs. commands, and cost per answer."
 
   - id: pro-unlimited-fair-use
-    statement: "Pro's 'Unlimited AI' is sustainable at €10–15 / user / month with a fair-use limit."
+    statement: "AI on Standard and Teams is sustainable at €10–15 / user / month with a fair-use limit."
     status: assumption
     confidence: low
     note: "Answers over long topic histories are the most expensive calls; measure AI cost per active Pro user in Phase 1 before fixing the price."
 
   - id: talk-mode-cost
-    statement: "Talk (voice) costs materially more per minute than chat and needs its own Free-tier cap."
+    statement: "Talk (voice) costs materially more per minute than chat and draws down the Free trial credit faster."
     status: assumption
     confidence: medium
     source: product/agent.md

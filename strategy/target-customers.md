@@ -15,7 +15,7 @@ Two segments, two motions — an SME wedge and a regulated premium. Freelancers 
 
 **Expansion motion:** every SME project exposes client-side stakeholders to Otopic; those clients bring it into their own organizations. Team-to-team, via the work itself.
 
-**Motion:** hosted SaaS (Free trial → Pro per-seat), seeded through Sapilon engagements.
+**Motion:** hosted SaaS (Free trial → Teams per-seat), seeded through Sapilon engagements.
 
 ## Premium — Regulated & enterprise teams
 
@@ -25,7 +25,7 @@ Two segments, two motions — an SME wedge and a regulated premium. Freelancers 
 
 **What Otopic gives them:** BYOC deployment into their own AWS organization. Compliance becomes architectural. Distributed enterprises can deploy per-region for multi-jurisdiction data residency while sharing one project brain.
 
-**Motion:** top-down, sold through Sapilon engagements as the Sovereign tier (see [`./sapilon-synergy.md`](./sapilon-synergy.md)).
+**Motion:** top-down, sold through Sapilon engagements as the Enterprise tier (see [`./sapilon-synergy.md`](./sapilon-synergy.md)).
 
 ## Later — Freelancers & solo operators
 
