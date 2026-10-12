@@ -37,3 +37,28 @@ assumptions:
     status: assumption
     confidence: medium
     source: product/use-cases/client-collaboration.md
+
+  - id: ai-action-is-an-answer
+    statement: "Only agent answers (grounded questions, summaries, drafts) count as AI actions; search and simple commands are free."
+    status: assumption
+    confidence: medium
+    source: pricing/current-model.md
+    note: "Validate in Phase 1: share of agent requests that are answers vs. commands, and cost per answer."
+
+  - id: pro-unlimited-fair-use
+    statement: "Pro's 'Unlimited AI' is sustainable at €10–15 / user / month with a fair-use limit."
+    status: assumption
+    confidence: low
+    note: "Answers over long topic histories are the most expensive calls; measure AI cost per active Pro user in Phase 1 before fixing the price."
+
+  - id: talk-mode-cost
+    statement: "Talk (voice) costs materially more per minute than chat and needs its own Free-tier cap."
+    status: assumption
+    confidence: medium
+    source: product/agent.md
+
+  - id: client-questions-on-host-pool
+    statement: "Questions asked by client-side stakeholders on a shared topic draw on the host team's AI pool."
+    status: assumption
+    confidence: low
+    source: pricing/current-model.md

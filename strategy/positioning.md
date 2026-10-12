@@ -6,7 +6,15 @@
 
 ## The wedge
 
-No tool today is simple, AI-native, *and* sovereign. Existing tools force a trade-off between the three; Otopic delivers all of them. Any single attribute is replicable — **the combination is the moat.**
+No tool today is simple, AI-native, _and_ sovereign. Existing tools force a trade-off between the three; Otopic delivers all of them. Any single attribute is replicable — **the combination is the moat.**
+
+## Our own line
+
+Otopic doesn't replace the messenger or the tracker; it replaces the **patchwork** around them — the board, the thread, the doc and the WhatsApp group where a remote team's context gets lost. For the SME motion the line is **simplicity and AI-native design**; sovereignty is the third leg for the regulated segment. ([`../decisions/0004-own-line-not-a-replacement.md`](../decisions/0004-own-line-not-a-replacement.md))
+
+> _Keep chatting anywhere. Otopic is where your work and its decisions live — and you can ask it anything._
+
+Users meet the AI through one agent they talk to or chat with ([`../product/agent.md`](../product/agent.md)).
 
 ## What Otopic is
 
@@ -20,15 +28,16 @@ No tool today is simple, AI-native, *and* sovereign. Existing tools force a trad
 - A task manager with a chatbot bolted on
 - A kanban/board tool optimized for human scanning but opaque to AI
 - A multi-tenant SaaS that regulated industries can't touch
+- A replacement for Slack, Teams or Jira — it has its own line (above)
 
 ## Where we sit
 
-| | Notion | Asana / ClickUp | Jira | Self-hosted | **Otopic** |
-| --- | --- | --- | --- | --- | --- |
-| AI-native | Partial | No | No | No | **Yes** |
-| Simple & mobile-first | Partial | No | No | No | **Yes** |
-| Data sovereignty (BYOC) | No | No | No | Yes (clunky) | **Yes** |
-| Built-in client collab | No | Partial | No | No | **Yes** |
+|                         | Slack / Teams | Notion  | Asana / ClickUp | Jira | Self-hosted  | **Otopic** |
+| ----------------------- | ------------- | ------- | --------------- | ---- | ------------ | ---------- |
+| AI-native               | Partial       | Partial | No              | No   | No           | **Yes**    |
+| Simple & mobile-first   | Partial       | Partial | No              | No   | No           | **Yes**    |
+| Data sovereignty (BYOC) | No            | No      | No              | No   | Yes (clunky) | **Yes**    |
+| Built-in client collab  | Partial       | No      | Partial         | No   | No           | **Yes**    |
 
 Structured source: [`../market/competitor-matrix.yaml`](../market/competitor-matrix.yaml); analysis in [`../market/observations.md`](../market/observations.md).
 

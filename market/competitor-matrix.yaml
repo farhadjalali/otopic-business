@@ -1,14 +1,37 @@
 # Otopic competitor matrix — structured source of truth.
 # Prose deep-dives for the key ones live in ./competitors/<slug>.md
 # Strategic analysis lives in ./observations.md
-# Categories: all-in-one-workspace | work-management | dev-tracker | self-hosted
+# Categories: messenger | all-in-one-workspace | work-management | dev-tracker | self-hosted
 # Unknown/uncertain fields are left null rather than guessed.
 
 meta:
   legend: "Axes scored relative to Otopic's positioning: ai_native, simple_mobile_first, sovereignty_byoc, client_collab"
-  updated: 2026-08-11
+  updated: 2026-10-12
 
 competitors:
+  # Messengers are where remote teams live, not what Otopic replaces (decisions/0004).
+  - name: Slack
+    slug: slack
+    url: https://slack.com/
+    category: messenger
+    ai_native: partial
+    simple_mobile_first: partial
+    sovereignty_byoc: no
+    client_collab: partial
+    strengths: [default chat for many remote teams, Slack Connect for outside partners, large app ecosystem]
+    weaknesses: [knowledge ends up in ephemeral threads, AI layered on a chat-first model, multi-tenant only]
+
+  - name: Microsoft Teams
+    slug: microsoft-teams
+    url: https://www.microsoft.com/microsoft-teams
+    category: messenger
+    ai_native: partial
+    simple_mobile_first: no
+    sovereignty_byoc: no
+    client_collab: partial
+    strengths: [part of the Microsoft 365 world most SMEs already run, calls and meetings, guest access]
+    weaknesses: [heavy for small teams, context scattered across chats/channels/files, AI layered on a chat-first model]
+
   - name: Notion
     slug: notion
     url: https://www.notion.com/

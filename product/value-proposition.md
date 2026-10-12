@@ -15,7 +15,7 @@ A **Topic** is a durable container that holds notes, chat, tasks, decisions, and
 Existing tools force a trade-off. Otopic delivers all three:
 
 1. **Simple** — mobile-first, three-tap actions, no setup overhead. An SME team is productive on day one, without an admin or a rollout project.
-2. **AI-native** — AI is how work gets organized, not a chatbot on the side. Every note, decision, and task is a first-class input to the AI.
+2. **AI-native** — AI is how work gets organized, not a chatbot on the side. Every note, decision, and task is a first-class input to the AI. Users meet it through one agent — talk or chat — that finds, does and answers ([`./agent.md`](./agent.md)).
 3. **Sovereign** — deployable into the client's own AWS organization. Data never leaves their boundary; compliance becomes architectural, not contractual.
 
 ## Why text-first matters to the buyer
@@ -26,6 +26,10 @@ Otopic stores work as structured, human-readable text rather than opaque rich-te
 - **Longevity** — plain-text content is portable, diff-able, and survives tooling changes. Readable in ten years without a renderer.
 
 The UI can be rich; the storage layer stays minimal. Full rationale: [`../decisions/0001-text-first-data-model.md`](../decisions/0001-text-first-data-model.md).
+
+## The agent
+
+- [`agent.md`](./agent.md) — the one AI entry point: where it lives, talk or chat, find / do / answer
 
 ## Use-cases
 
