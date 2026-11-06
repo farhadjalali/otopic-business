@@ -43,6 +43,7 @@ Empty inbox = reviewed brain.
 | [`pricing/`](./pricing) | Current model, assumptions, experiments | **how we charge** |
 | [`decisions/`](./decisions) | Lightweight decision log (dated, numbered) | **why we chose X** |
 | [`research/`](./research) | Raw notes, links, founder questions | reference |
+| [`business-plan/`](./business-plan) | One-page plan (md + PDF) and the deck, compiled from the folders above | nothing — derived for sharing |
 | [`templates/`](./templates) | Reusable doc skeletons (one-pager, etc.) | reuse |
 | [`archive/`](./archive) | Superseded / rejected, kept for history | history |
 

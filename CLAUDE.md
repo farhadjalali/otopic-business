@@ -30,6 +30,7 @@ See [README.md](./README.md) for the full loop and the folder-by-folder source-o
 | `pricing/` | Current model, assumptions, experiments | how we charge |
 | `decisions/` | Lightweight decision log (dated, numbered) | why we chose X |
 | `research/` | Raw notes, links, founder questions | reference |
+| `business-plan/` | One-page plan (md + PDF) and pitch deck (pptx), compiled from the folders above | nothing — derived for sharing; update after the sources change |
 | `templates/` | Reusable doc skeletons | reuse |
 | `archive/` | Superseded / rejected, kept for history | history |
 
