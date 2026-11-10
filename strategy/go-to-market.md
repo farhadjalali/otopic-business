@@ -13,7 +13,7 @@ Otopic is used inside every Sapilon engagement. **No public marketing.**
 
 Public launch with **Free + Standard + Teams** tiers.
 
-- **Sovereign** tier sold through Sapilon as a packaged offering.
+- **Enterprise** tier (sovereign BYOC deployment) sold through Sapilon as a packaged offering.
 - Content marketing on AI + project execution drives both demand funnels (Otopic and Sapilon).
 
 ## Phase 3 (year 2+, ~mid-2028): Decision point
